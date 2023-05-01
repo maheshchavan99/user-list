@@ -1,0 +1,176 @@
+.profile {
+    flex: 4;
+    margin-top: 70px;
+    padding: 20px;
+    width: 100%;
+}
+
+.profile-container {
+    width: 100%;
+    display: flex;
+    padding: 30px 0px;
+    justify-content: space-between;
+}
+
+.profile-left {
+    width: 49%;
+    box-shadow: 1.5px 0px 0px grey;
+    padding: 20px 0;
+   
+}
+
+.pf-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pf-img img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.pf-img span {
+    margin-top: 10px;
+}
+
+.pf-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pf-details .email {
+    margin-left: 10px;
+}
+
+.pf-details .username {
+    margin-right: 10px;
+}
+
+.pf-details .pd {
+    margin-top: 10px;
+}
+
+.leftside {
+    font-size: 16px;
+    color: grey;
+}
+
+.rightside {
+    font-size: 16px;
+    font-weight: 550;
+}
+
+.right-side {
+    font-size: 16px;
+    font-weight: 550;
+}
+
+.company {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.company .title {
+    font-size: 16px;
+    color: grey;
+}
+
+.company-detaile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cp-name {
+    margin-top: 10px;
+}
+
+.cp-name.catch {
+    margin-right: 40px;
+}
+
+.cp-name .bs {
+    margin-left: 20px;
+}
+
+.profile-right {
+    width: 49%;
+    padding: 10px 50px;
+
+}
+
+/*  *right side*/
+.profile-right .adress-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.profile-right .title {
+    font-size: 16px;
+    color: grey;
+}
+
+.adress-details .adress {
+    margin-top: 10px;
+}
+
+.adress.street {
+    margin-left: 14px;
+
+}
+
+.adress .ad-left {
+    font-size: 16px;
+    color: grey;
+}
+
+.adress.suite {
+    margin-left: 19px;
+
+}
+
+.adress.city {
+    margin-left: 24px;
+}
+
+.adress .ad-right {
+    font-size: 16px;
+    font-weight: 550;
+}
+.map{
+    width: 100%;
+    margin-top: 30px;
+
+}
+.lat-long{
+    display: flex;
+    float: right;
+}
+.lat-long .lat{
+margin-right: 30px;
+font-size: 16px;
+color: grey;
+}
+.lat-long span{
+    color: black;
+    font-weight: 550;
+}
+
+.google-map{
+    width: 100%;
+}
+@media only screen and (max-width: 1200px) {
+  .google-map .iframe{
+    width: 100% !important;
+
+}   
+ }

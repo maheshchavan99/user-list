@@ -1,0 +1,33 @@
+.userprofile{
+position: relative;
+margin-top: 20px;
+}
+.profile-img {
+display: flex;
+align-items: center;
+cursor: pointer;
+
+
+}
+.profile-img img{
+   width: 25px;
+   height: 25px;
+   object-fit: cover;
+   border-radius: 50%; 
+   margin-right: 20px;
+}
+.active{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: green;
+    float: right;
+    position: absolute;
+    top: 9px;
+    right: 0;
+
+}
+.incative{
+    background-color:grey;
+    
+}

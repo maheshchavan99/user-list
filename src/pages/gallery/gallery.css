@@ -1,0 +1,16 @@
+.gallery{
+    flex: 4;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.gallery .wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: grey;
+}
